@@ -1,0 +1,34 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+  }
+  .sub-container1 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: #245878;
+  }
+  .item1 {
+    flex: 1;
+    background-color: #214585;
+    margin: 5%;
+    color: white;
+  }
+  .item2 {
+    flex: 1;
+    background-color: #548789;
+    margin: 5%;
+    color: white;
+  }
+  .sub-container2 {
+    flex: 1;
+    display: flex;
+    background-color: #451589;
+  }
+  .item3 {
+    flex: 1;
+    background-color: #236589;
+    margin: 5%;
+    color: white;
+  }
