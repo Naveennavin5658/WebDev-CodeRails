@@ -140,3 +140,36 @@ console.log(dummy.slice(1,4));
 console.log(dummy.substring(1,4));
 console.log(dummy.trim());
 console.log(dummy.split(" "));
+
+
+//ans 17 = array methods practice
+
+sample_list = [1,2,3,4,5]
+console.log(sample_list.length)
+console.log(sample_list[sample_list.length-1])
+console.log(sample_list.push(6))
+console.log(sample_list)
+sample_list.pop()
+console.log(sample_list)
+dummy_list =  Array(1,2,"3")
+console.log(dummy_list)
+dummy_list.splice(0,2)
+console.log(dummy_list)
+new_list = sample_list.concat(dummy_list)
+console.log(new_list)
+
+//ans 17
+naveen = [1,2,3,4,5,6]
+praveen = []
+naveen.forEach(function square(ele){
+    praveen.push(ele*2);
+});
+console.log(praveen);
+const vamsi = naveen.filter(
+    function filterEven(ele){
+        return ele%2==0;
+    }
+)
+console.log("VAMSI",vamsi);
+
+mapped_array = map()
